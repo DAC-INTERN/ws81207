@@ -1,0 +1,42 @@
+
+#wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 50px 30px;
+}
+
+.col-header-icon {
+    margin-right: 10px;
+}
+
+.col-header-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 10px 50px;
+    padding-left: 0;
+}
+
+.td1 {
+    color: #CCC;
+}
+
+.col-header-title{
+    position: relative;
+}
+
+.col-header-title i{
+    position: absolute;
+    left: -30px;
+}
+
+.row-info{
+    margin-top: 20px;
+}
+
+.pr-20{
+    padding-right: 20px;
+}
