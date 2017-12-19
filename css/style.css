@@ -1,8 +1,9 @@
 
 #wrapper {
     max-width: 1170px;
-    margin: 0 auto;
+    margin: 0 6rem 0 6rem;
     padding: 50px 30px;
+    background-color: #f8f9fa;
 }
 
 .col-header-icon {
@@ -15,16 +16,18 @@
     text-transform: uppercase;
 }
 
+
 td {
     padding: 10px 50px;
     padding-left: 0;
 }
 .td1 {
-    color: #CCC;
+    color: #A9A9A9;
 }
 
-.col-header-title{
+.col-header-title {
     position: relative;
+    color: #17a2b8;
 }
 .col-xs-12{
     margin-top: : 20px;
@@ -38,10 +41,8 @@ td {
 .row-info{
     margin-top: 20px;
 }
-.block2 td{
-    padding-top: 0;
-    padding-left: 0;
-}
+
+
 #wrapper h2{
     color: #CCC;
     font-size: 18px;
@@ -51,4 +52,30 @@ td {
 #wrapper h1{
     font-weight: bold;
 }
-
+@media (min-width: 768px) {
+.offset-md-2{
+    margin-left: 16%;
+}
+}
+@media (min-width: 768px) {
+.col-md-6{
+    flex: 0 0 50%;
+    max-width: : 50%;
+}
+}
+@media (min-width: 768px) {
+.col-md-5{
+    flex: 0 0 50%;
+    max-width: : 50%;
+}
+}
+.col-md-12 ul{
+    padding: 0;
+    margin-left: 16px;
+}
+.col-md-12 li{
+    padding: 10px;
+}
+.edu{
+    padding-left: 48px;
+}
